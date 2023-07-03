@@ -39,7 +39,7 @@ $custom_query = new WP_Query( $args );
     <div class="blog-main-page banner-title-bg">
         <div class="wrap">
             <div class="hero-heading">
-                <h1>Blog</h1>
+                <h1><?= the_title(); ?></h1>
             </div>
         </div>
     </div>
