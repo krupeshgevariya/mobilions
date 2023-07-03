@@ -43,27 +43,6 @@
                                         global $post;
                                         $get_author_id = get_the_author_meta('ID');
                                         $get_author_gravatar = get_avatar_url($get_author_id, array('size' => 550));
-                                        ?>
-                                        <div class="comments-wrapper">
-                                            <!-- <div class="author-details">
-                                                <img src="<?= $get_author_gravatar; ?>" alt="<?= get_the_title(); ?> "/>
-                                                <div class="author-title">
-                                                    <h4>About the author</h4>
-                                                    <h5><?php echo get_the_author_posts_link(); ?></h5>
-                                                    <p><?php echo get_the_author_meta('description'); ?></p>
-                                                </div>
-                                            </div> -->
-                                        </div>
-                                        <div class="comments-wrapper section-inner">
-
-                                            <?php
-                                            //comments_template('comments.php');
-                                            // comments_template();
-                                            ?>
-
-                                        </div><!-- .comments-wrapper -->
-
-                                        <?php
                                     }
                                     ?>
                                 
