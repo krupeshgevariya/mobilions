@@ -3,6 +3,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex, nofollow">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
     <title>Mobilions</title>
     <link rel="icon" href="https://mobilions.nl/blogs/wp-content/themes/mobilions/assets/images/icons/favicon.svg">
