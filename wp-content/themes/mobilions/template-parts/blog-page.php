@@ -2,7 +2,7 @@
 /* Template Name: Custom blog
 */
 ?>
-<?php get_header('mobilions'); ?>
+<?php get_header(); ?>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 <script>
     $(document).ready(function() {
@@ -79,4 +79,4 @@ $custom_query = new WP_Query( $args );
         </div>
     </div>
 </section>
-<?php get_footer('mobilions');?>
+<?php get_footer();?>
