@@ -202,7 +202,22 @@
             </div>
         </div>
     </footer>
-	
+	<script>
+    $(document).ready(function() {
+            // Hide all tab panes except the active one
+            $(".tab-content .tab-pane").not(".active").hide();
+            
+            // Add hover event to nav links
+            $("button.nav-link").hover(
+                function() { // Mouseenter event
+                     $(this).addClass("active").siblings().removeClass("active");
+                    var target = $(this).attr("data-bs-target");
+                    $(target).show().addClass("active show").siblings().hide().removeClass("active show");
+                }
+            );
+            
+        });
+</script>
 <?php wp_footer(); ?>
 
 </body>
