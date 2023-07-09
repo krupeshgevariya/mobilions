@@ -9,6 +9,7 @@
  * @package mobilions
  */
 ?>
+
 <footer class="footer">
         <div class="container">
             <div class="first_bg">
@@ -31,7 +32,7 @@
                     </div>
                     <div class="col-12 col-xl-5 col-lg-5 col-md-5 col-sm-12">
                         <div class="sound_image">
-                            <img src="https://mobilions.nl/blogs/wp-content/themes/mobilions/assets/images/page-images/sound.png" class="w-100" alt="talk">
+                            <img src="https://mobilions.nl/blogs/wp-content/themes/mobilions/assets/images/pageImages/sound.png" class="w-100" alt="talk">
                         </div>
                     </div>
                 </div>
@@ -42,7 +43,7 @@
                 <div class="row">
                     <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12">
                         <div class="footer_map_iamge">
-                            <img src="https://mobilions.nl/blogs/wp-content/themes/mobilions/assets/images/page-images/map.svg" class="w-100 img-fluid" alt="map">
+                            <img src="https://mobilions.nl/blogs/wp-content/themes/mobilions/assets/images/pageImages/map.svg" class="w-100 img-fluid" alt="map">
                         </div>
                     </div>
                     <div class="col-12 col-xl-3 col-lg-3 col-md-3 col-sm-12 mt-3 mt-md-0">
@@ -174,7 +175,7 @@
                             <div class="col-12 col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                 <div class="copyright_text">
                                     <p class="mb-0 font_400">
-                                        © <?= date('Y'); ?> mobilions. All Rights Reserved
+                                        © 2023 mobilions. All Rights Reserved
                                     </p>
                                 </div>
                             </div>
@@ -189,7 +190,7 @@
                     <div class="col-12 col-xl-10 col-lg-10 col-md-12 col-sm-12">
                         <div class="really_us">
                             <div class="really_us_image">
-                                <img src="https://mobilions.nl/blogs/wp-content/themes/mobilions/assets/images/page-images/girl-footer.svg" class="img-fluid" alt="image">
+                                <img src="https://mobilions.nl/blogs/wp-content/themes/mobilions/assets/images/pageImages/girl-footer.svg" class="img-fluid" alt="image">
                             </div>
                             <p class="font_700 font_32 mb-0">IT'S REALLY EASY TO CONNECT WITH US.</p>
                             <div class="really_us_button">
@@ -201,7 +202,9 @@
                 </div>
             </div>
         </div>
-    </footer>
+</footer>
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 	<script>
     $(document).ready(function() {
