@@ -10,6 +10,19 @@
     <link rel="stylesheet" href="https://mobilions.nl/blogs/wp-content/themes/mobilions/assets/icomoon/style.css">
     <link rel="stylesheet" href="https://mobilions.nl/blogs/wp-content/themes/mobilions/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://mobilions.nl/blogs/wp-content/themes/mobilions/assets/css/style.css">
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/648b0308cc26a871b022b806/1h2vg7mmk';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 	<?php wp_head(); ?>
 </head>
 
